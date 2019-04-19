@@ -10,7 +10,6 @@ import Navagation from './layout/Nav/Menu'
 const GlobalStyle = createGlobalStyle`
   body {
 	margin:auto;
-	background-color:gray;
   }
 `
 

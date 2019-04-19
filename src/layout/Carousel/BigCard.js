@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 const BigCard = styled.div`
 	background-color: #a6adb4;
-	background-image: url('https://images.unsplash.com/photo-1553708843-c500c49da172?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1936&q=80');
+	background-image: url(${props=> props.image});
 	box-sizing: border-box;
 	box-shadow: 0px 2px 8px #a6adb4;
 	border-radius: 5px;

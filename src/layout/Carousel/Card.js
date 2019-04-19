@@ -7,7 +7,7 @@ const Card = styled.div`
 
 	margin-bottom: 40px;
 `
-const CardImage = styled.div`
+const CardImage = styled.img`
 	width: 100%;
 	height: 180px;
 	max-height: 180px;

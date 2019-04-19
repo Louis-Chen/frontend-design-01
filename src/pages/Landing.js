@@ -68,7 +68,7 @@ const PageLanding = () => {
 				<Row center="lg">
 					<Col lg={4} md={4} sm={2} xs={1}>
 						<Card>
-							<CardImage>return</CardImage>
+							<CardImage src="http://bit.ly/2Pj1ULB" alt="asd" />
 							<CardContent>
 								<Text size="16px" content="Dolore magna aliqua" />
 								<Paragragh color="#A6ADB4">
@@ -80,7 +80,7 @@ const PageLanding = () => {
 					</Col>
 					<Col lg={4} md={4} sm={2} xs={1}>
 						<Card>
-							<CardImage>return</CardImage>
+							<CardImage src="http://bit.ly/2PhsCnH" alt="asd" />
 							<CardContent>
 								<Text size="16px" content="Dolore magna aliqua" />
 								<Paragragh color="#A6ADB4">
@@ -92,7 +92,7 @@ const PageLanding = () => {
 					</Col>
 					<Col lg={4} md={4} sm={2} xs={1}>
 						<Card>
-							<CardImage>return</CardImage>
+							<CardImage src="http://bit.ly/2vakCM9" alt="asd" />
 							<CardContent>
 								<Text size="16px" content="Dolore magna aliqua" />
 								<Paragragh color="#A6ADB4">
@@ -109,7 +109,7 @@ const PageLanding = () => {
 				</div>
 				<Row>
 					<Col lg={8} md={8} sm={12} xs={12}>
-						<BigCard>
+						<BigCard image="http://bit.ly/2vcH0Vd">
 							<BigCardTitle>
 								<Text color="#FFFFFF" size="16px" content="TRAVEL" />
 							</BigCardTitle>
@@ -122,7 +122,7 @@ const PageLanding = () => {
 								<ReactSVG src={Clock} />
 							</BigCardContent>
 						</BigCard>
-						<BigCard>
+						<BigCard image="http://bit.ly/2va3ki5">
 							<BigCardTitle>
 								<Text color="#FFFFFF" size="16px" content="TRAVEL" />
 							</BigCardTitle>
@@ -138,7 +138,7 @@ const PageLanding = () => {
 					</Col>
 					<Col lg={4} md={4} sm={12} xs={12}>
 						<Card>
-							<CardImage>return</CardImage>
+							<CardImage src="http://bit.ly/2vakCM9" alt="asd" />
 							<CardContent>
 								<Text size="16px" content="Dolore magna aliqua" />
 								<Paragragh color="#A6ADB4">
@@ -148,7 +148,7 @@ const PageLanding = () => {
 							</CardContent>
 						</Card>
 						<Card>
-							<CardImage>return</CardImage>
+							<CardImage src="http://bit.ly/2Pkz6lz" alt="asd" />
 							<CardContent>
 								<Text size="16px" content="Dolore magna aliqua" />
 								<Paragragh color="#A6ADB4">
@@ -158,7 +158,7 @@ const PageLanding = () => {
 							</CardContent>
 						</Card>
 						<Card>
-							<CardImage>return</CardImage>
+							<CardImage src="http://bit.ly/2PkpcAD" alt="asd" />
 							<CardContent>
 								<Text size="16px" content="Dolore magna aliqua" />
 								<Paragragh color="#A6ADB4">
@@ -174,7 +174,7 @@ const PageLanding = () => {
 				<Grid>
 					<Row>
 						<Col lg={1} md={1} sm={6} xs={0}>
-							<Text size="16px" color="#EBEDED"  content="LOGO" />
+							<Text size="16px" color="#EBEDED" content="LOGO" />
 						</Col>
 
 						<Col lg={1} md={1} sm={6} xs={0}>
