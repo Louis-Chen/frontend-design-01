@@ -1,9 +1,11 @@
 import React from 'react'
 
-import PageLanding from './pages/Landing'
 import { ThemeProvider } from 'styled-components'
 
 import { createGlobalStyle } from 'styled-components'
+
+import PageLanding from './pages/Landing'
+import Navagation from './layout/Nav/Menu'
 
 const GlobalStyle = createGlobalStyle`
   body {
@@ -16,8 +18,8 @@ const theme = {
 	flexboxgrid: {
 		// Defaults
 		gridSize: 12, // columns
-		gutterWidth: 1, // rem
-		outerMargin: 0, // rem
+		gutterWidth: 4, // rem
+		outerMargin: 2, // rem
 		mediaQuery: 'only screen',
 		container: {
 			sm: 46, // rem
@@ -37,6 +39,7 @@ const App = () => {
 		<ThemeProvider theme={theme}>
 			<React.Fragment>
 				<GlobalStyle />
+				<Navagation />
 				<PageLanding />
 			</React.Fragment>
 		</ThemeProvider>
