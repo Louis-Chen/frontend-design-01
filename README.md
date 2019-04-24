@@ -2,7 +2,7 @@
 
 > 從設計稿手刻設計元件
 
-> codesandbox : https://codesandbox.io/s/github/Louis-Chen/frontend-design-01
+> codesandbox : https://7l7xqwy1q.codesandbox.io/
 
 > 設計稿 ：https://ui8.net/products/responsive-resize-kit
 
